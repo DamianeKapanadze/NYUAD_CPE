@@ -1,5 +1,5 @@
 
-/* Name: Damiane Kapanadze, Student Number: dk4770	*/
+/* Name: Damiane Kapanadze*/
 
 /* Date: 08/09/2023	*/
 
