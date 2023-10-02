@@ -33,8 +33,8 @@ int main() {
 //Problem 2
 /*
 Write a Boolean expression that evaluates true if the age is between 18 and 55 inclusively. Use an if
-statement to write a complete program that prompts the user for his/her age and print “Transaction
-accepted” if the age is within the interval
+statement to write a complete program that prompts the user for his/her age and print â€œTransaction
+acceptedâ€ if the age is within the interval
 */
 
 /*
@@ -153,9 +153,9 @@ int main() {
 
 //Problem 6 
 /*
-Design a software that prints a menu for the user to select which arithmetic operation to use (‘a’ for
-addition, ‘s’ for subtraction, ‘m’ for multiplication, and ‘d’ for division. The software prompts the user for
-two numbers and perform the selected arithmetic operation. The software should print “Invalid selection”
+Design a software that prints a menu for the user to select which arithmetic operation to use (â€˜aâ€™ for
+addition, â€˜sâ€™ for subtraction, â€˜mâ€™ for multiplication, and â€˜dâ€™ for division. The software prompts the user for
+two numbers and perform the selected arithmetic operation. The software should print â€œInvalid selectionâ€
 if the user choices any other charac
 */
 /*
