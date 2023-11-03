@@ -1,0 +1,11 @@
+#include "Array.h"
+
+using namespace std;
+
+
+int main() {
+	int a[] = { 9, 8,7,6,5,4,3,2,1 };
+	BubbleSort(a, 9);
+	cout << binarySeach(a, 0, 9, 0) << endl;;
+	printArr(a, 9);
+}
