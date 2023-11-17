@@ -55,25 +55,37 @@ public:
 
 	//member functions
 	void setTime(const int h, const int m, const int s) {
-		if (h < 24 && h>=0)
+		if (h < 24 && h >= 0)
 			hour = h;
 		else
 			cout << "Invalid hour, out of range\n";
 
-		if (m < 60 && m>=0)
+		if (m < 60 && m >= 0)
 			min = m;
 		else
 			cout << "Invalid minute, out of range\n";
-		
+
 		if (s < 60 && s >= 0)
 			sec = s;
 		else
 			cout << "Invalid secods, out of range\n";
-		
+
 	}
 
 	void print() const {
-		cout << hour << ":" << min << ":" << sec << endl;
+		if (hour < 10)
+			cout << "0" << hour << ":";
+		else cout << hour << ":";
+
+
+		if (min < 10)
+			cout << "0" << min << ":";
+		else cout << min << ":";
+
+		if (sec < 10)
+			cout << "0" << sec << "\n";
+		else cout << sec << "\n";
+
 	}
 
 	void nextSec() {
