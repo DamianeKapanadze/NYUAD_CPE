@@ -40,6 +40,11 @@ public:
         else {
             cout << "Incorrect input for denominator\n";
         }
+
+        //reduce
+        int GCD = findGCD(numerator, denominator);
+        numerator /= GCD;
+        denominator /= GCD;
     }
 
     //setters
@@ -139,9 +144,8 @@ public:
 
 int main()
 {
-    Fraction f(1, 2);
+    Fraction f(4, 2);
 
-    f.multiplication(1,2);
 
     f.printFraction();
    
