@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//Spawn targets randomly left and right, without spawning them directly in front of the player.
 public class SpawnTargets : MonoBehaviour
 {
     public GameObject targetPrefab; // Reference to the target prefab
