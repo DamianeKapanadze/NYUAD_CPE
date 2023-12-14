@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script spawns terrain so that it creates illusion of moving forward
 public class TerrainSpawner : MonoBehaviour
 {
     public float scrollSpeed = 0.5f;
