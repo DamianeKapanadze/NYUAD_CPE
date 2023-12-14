@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script moves the targets in horizontal, vertical or circular motions
 public class MoveTargets : MonoBehaviour
 {
     // Start is called before the first frame update
