@@ -25,7 +25,7 @@ public class SpawnTargets : MonoBehaviour
         // if its time to spawn
         if (timeToSpawn < Time.time)
         {
-            //increase time to spawn
+            //update time to spawn
             timeToSpawn = Time.time + delay;
 
             // choose where to spwan the target: left or right
