@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
+// This script displays score and time on canvas, also keeps track of score.
 public class ScoreDisplay : MonoBehaviour
 {
     public Text scoreText; // drag and drop text object where the score should show
