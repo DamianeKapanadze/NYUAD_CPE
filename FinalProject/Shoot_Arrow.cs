@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//shoots arrow
 public class Shoot_Arrow : MonoBehaviour
 {
     public GameObject Arrow_Emitter; // attach arrowEmiter object (where the arrow should appear)
