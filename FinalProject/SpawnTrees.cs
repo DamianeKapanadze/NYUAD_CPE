@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script spawns trees and bushes at random on the left or right of the player
 public class SpawnTrees : MonoBehaviour
 {
     public GameObject[] Trees; // Reference to the cube prefab
