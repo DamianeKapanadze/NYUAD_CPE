@@ -10,10 +10,10 @@ public class ScoreDisplay : MonoBehaviour
 {
     public Text scoreText;
     public static ScoreDisplay instance;
-    int score = 0;
     public Text timeText;
-    float starttime;
     public float time;
+    private float starttime;
+    private int score = 0;
 
     // Start is called before the first frame update
     private void Awake()
