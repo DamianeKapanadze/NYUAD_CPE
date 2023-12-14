@@ -9,6 +9,7 @@ public class MoveSpeed : MonoBehaviour
 
     private void Update()
     {
+        // increase movespeed  
         moveSpeed += speedIncreaseRate * Time.deltaTime;
     }
 }
